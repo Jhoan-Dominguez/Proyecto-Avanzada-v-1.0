@@ -1,0 +1,124 @@
+body{
+}
+.cabecera {
+  padding: 2rem 0;
+  background: #2DC3E7;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.registro{
+  padding: 150px;
+  top: 500;
+}
+
+.cabecera a{
+  color:white;
+  text-decoration: none;
+  padding: 2rem 0;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabla_productos th, td{
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.form_productos{
+
+  border-radius: 5px;
+  border: #B1CAE9 2px solid;
+  width: 1240px;
+  background: white;
+  padding: 45px;
+  margin: auto;
+  margin-top: 50px;
+  font-family: 'calibri';
+  color: black;
+}
+
+.vendedor{
+  position: fixed;
+  background: #2DC3E7;
+
+  right: 0;
+  top: 0;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a{
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  color: white;
+  border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background: #2DE7C5;
+}
+
+/* model */
+body, .modal{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/*
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease;
+  opacity: 0;
+
+}*/
+
+.contenedor-modal{
+  width: 100%;
+  height: 300px;
+
+  background: #fff;
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
+  align-content: center;
+  position: relative;
+  transform: translateY(0%);
+
+}
+
+.contenedor-modal header{
+  padding: 10px;
+  background: #db8046;
+  color: #fff;
+}
+
+.contenedor-modal label{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
